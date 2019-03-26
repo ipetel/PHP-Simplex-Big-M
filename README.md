@@ -31,4 +31,5 @@ solve Linear Programming problem by using Simplex or Simplex + Big M algorithm
 	3) calculations_class - Contains all the "fun" math calculations that need to be done to solve the problem.
 
 *** Ok, how do I use this code? ***
+
 	Go to "data.php" file and read the Explanations
