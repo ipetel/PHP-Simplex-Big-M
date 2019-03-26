@@ -29,3 +29,6 @@ solve Linear Programming problem by using Simplex or Simplex + Big M algorithm
 	1) index.php - Runs the project and solves the problem.
 	2) data.php - Contains all our Story as data. Usually, this file will mostly to be changed.
 	3) calculations_class - Contains all the "fun" math calculations that need to be done to solve the problem.
+
+*** Ok, how do I use this code? ***
+	Go to "data.php" file and read the Explanations
