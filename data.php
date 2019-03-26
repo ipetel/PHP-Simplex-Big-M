@@ -62,7 +62,8 @@ Let the decision variables and constants of the problem be:
 /* Subject to */
 	// 1) 5x1 + 15x2 + 2x3 + 30x4 <= 225
 	// 2) x1 + x4 >= 4
-	// 3) x1,x2,x3,x4>=0 => don't need to write. it will do it automatically ****
+	// 3) x2 + x4 = 7
+	// 4) x1,x2,x3,x4>=0 => don't need to write. it will do it automatically ****
 
 	$st=array(array('x1'=>5,'x2'=>15,'x3'=>2,'x4'=>30,'inequalitySign'=>'<=','RHS'=>225),
 			  array('x1'=>1,'x4'=>1,'inequalitySign'=>'>=','RHS'=>4),
