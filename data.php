@@ -66,7 +66,7 @@ Let the decision variables and constants of the problem be:
 	// 4) x1,x2,x3,x4>=0 => don't need to write. it will do it automatically ****
 
 	$st=array(array('x1'=>5,'x2'=>15,'x3'=>2,'x4'=>30,'inequalitySign'=>'<=','RHS'=>225),
-			  array('x1'=>1,'x4'=>1,'inequalitySign'=>'>=','RHS'=>4),
-			  array('x2'=>1,'x4'=>1,'inequalitySign'=>'=','RHS'=>7),
-			 );
+		  array('x1'=>1,'x4'=>1,'inequalitySign'=>'>=','RHS'=>4),
+		  array('x2'=>1,'x4'=>1,'inequalitySign'=>'=','RHS'=>7),
+	    );
 ?>
